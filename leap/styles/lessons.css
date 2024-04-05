@@ -1,0 +1,67 @@
+header {
+    padding: 120px 128px 64px 128px;
+}
+
+main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 64px 128px 128px 128px;
+    gap: 64px;
+    background: #F8F8F8;
+}
+
+.card {
+    padding: 32px;
+    gap: 32px;
+    flex: 1 1 22rem;
+    justify-content: space-between;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #DBF1FC;
+    box-shadow: 0px 4px 4px 0px rgba(165, 165, 165, 0.10);
+}
+
+.card .content {
+    gap: 32px;
+}
+
+.card .content hr {
+    align-self: stretch;
+    border: 2px solid #007DB3;
+}
+
+.card .content .info {
+    gap: 16px;
+    align-self: stretch;
+}
+
+.card a {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.card a button {
+    align-self: stretch;
+    background: #007DB3;
+    color: #FFFFFF;
+}
+
+.card a button:hover {
+    cursor: pointer;
+    background: #00577D;
+}
+
+.placeholder {
+    padding: 0px;
+    background-color: #F8F8F8;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    header, main {
+        padding: 32px;
+    }
+
+}
